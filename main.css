@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 314px;
+}
+
+.viewPort{
+    width: 314px;
+    border: 5px gray solid;
+    overflow: hidden;
+}
+
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    transition: 0.5s;
+}
+
+.allButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.buttonBackGround{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor:pointer;
+    background: rgb(116, 171, 235);
+    margin: 10px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.buttonBackGround.active{
+    transform: scale(1.2)
+}
+
+.myButton{
+    color: white;
+}
+
