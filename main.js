@@ -9,6 +9,8 @@ function creativeButton(){
         let $button = $(`<div></div>`).addClass('buttonBackGround')
         .on('click',buttonClick)
         let $buttonText = $(`<a>${i+1}</a>`).addClass('myButton')
+        if(i === 0){$button.addClass('active')}
+
         $button.append($buttonText)
         $allbuttons.append($button)
     }
